@@ -43,7 +43,8 @@ class FS_CPT_Tax_Post_Permalinks {
 	 * @var array $tax_args
 	 */
 	public $tax_args = array(
-		'taxonomy'        => '','post_type'       => 'fs_event',
+		'taxonomy'        => '',
+		'post_type'       => '',
 		'label'           => '',
 		'singular_label'  => '',
 		'hierarchical'    => true,
